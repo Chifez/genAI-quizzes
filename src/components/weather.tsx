@@ -8,7 +8,7 @@ export const Weather = ({ temperature, weather, location }: WeatherProps) => {
   return (
     <div className=" bg-blue-400/70 rounded-md p-2">
       <h2>
-        Current Weather for <span className="font-semibold">{location}</span>
+        Current Weather in <span className="font-semibold">{location}</span>
       </h2>
       <p>
         Condition: <span className="font-semibold">{weather}</span>
